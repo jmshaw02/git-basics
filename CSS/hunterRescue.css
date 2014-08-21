@@ -111,3 +111,22 @@ body{
 	padding: 0 2px 0 2px ;
 }
 /**end of navBar Styling**/
+
+/***IE fix for Github***/
+#iefix {
+	position: absolute;
+	width: 200px;
+	margin-top: 100px;
+	margin-left: -125px;
+	padding: 5px;
+	/*border: 1px solid #00f;*/
+	}
+#iefix a {
+	display: block;
+	font-size: 20px;
+	background-image: url(../images/scrollMid.png);
+	background-color: #8E7B59;
+	padding: 5px 20px;
+	margin-left: 0px;
+	/*border: 2px solid #000;*/
+	}

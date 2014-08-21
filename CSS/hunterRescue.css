@@ -1,0 +1,101 @@
+/***Reset***/
+html, body, ul, li, h1, h2, h3{
+	margin: 0;
+	padding: 0;
+}
+/***end of Reset***/
+
+/***siteBox or Wrapper is centered**/
+
+body{ 
+	background: url(../images/DSC_1059.jpg) repeat-y;
+	}
+#siteBox{
+	width: 790px;
+	/*border: 1px solid red;*/
+	background: url(../images/hunter_Site_Background.gif);
+	position: relative;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+#banner{
+	float: top right;
+	width: 632px;
+	/*border: 1px solid blue;*/
+	margin-top: 5px;
+	margin-left: 156px;
+	padding: 10px 0 10px 0;
+	background: #E31724;
+}
+#banner h1{
+	Font:  bold 50px Impact, Charcoal, sans-serif;
+	color: #000000;
+	margin-left: 50px;
+	letter-spacing: 20px;	
+}
+/**end of Banner Div**/
+
+/**logo div**/
+#logo{
+	float: top left;
+	width: 158px;
+	margin-top: -85px;
+	/*border: 1px dashed green;*/
+}	
+#logo p{
+	background: url(../images/ht_Logo.png)no-repeat;
+	padding: 37px;
+	margin: 0 15px 0 15px; 
+	text-indent: -9999px;
+}
+/**end of logo div**/
+/**mainContent Styling**/
+
+#mainContent{
+	border: 1px solid red;
+	background: url(../images/border_top.png) no-repeat top center, url(../images/border_Middle.png) repeat-y;
+	width: 680px;
+	Margin-left: 108px;
+	
+}
+#mainContent #text{
+	background: url(../images/border_Bottom.png) no-repeat bottom;
+	/*border: 1px dashed blue;*/
+	margin-top: 82px;
+	
+}
+	#mainContent #text p{
+	font: 12px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #000;
+	margin-left: 30px;
+}
+/**end of mainContect styling
+
+/**navBar Styling**/
+#navBar{
+	/*border: 1px dashed blue;*/
+	float: left;
+	width: 108px;
+	margin-top: 20px;
+	margin-left: -5px;
+	background-color: #70C910;
+}
+#navBar li{
+	list-style: none;
+	text-align: center;
+	text-transform: uppercase;
+	border: 2px solid #000;
+}
+#navBar a{
+	text-decoration: none;
+	color: #000;
+	font: 18px Impact, Chocoal, sans-serif;
+}
+#navBar a:hover{
+	background-color: #CEE055;
+	color: #C93210;
+	padding: 0 2px 0 2px ;
+}
+/**end of navBar Styling**/
